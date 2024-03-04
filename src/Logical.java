@@ -1,13 +1,12 @@
 package src;
 
-public class Logical {
+public class Logical
+{
     public static void main(String[] args)
     {
-        int[] arr = {1, 2, 3, 4, 5};
-
-        for (int i = 4; i >= 2; i--)
-        {
-            System.out.println(arr[i]);
-        }
+        int x = 5;
+        System.out.println (x < 5 &&  x < 10);
+        System.out.println (x < 5 || x < 6);
+        System.out.println (!(x < 5 && x < 10));
     }
 }
