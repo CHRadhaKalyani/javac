@@ -2,7 +2,8 @@ package src;
 
 public class ArrDemo
 {
-    public static void main (String [] args)
+    public static void main(String[] args)
+
     {
         //Single - Dimensional Array
 
@@ -16,6 +17,7 @@ public class ArrDemo
             System.out.println(nums[i]);
         }
 
+
         //Multi - Dimensional Array
 
         int[][] nums1 = new int [3][4];
@@ -28,9 +30,7 @@ public class ArrDemo
            }
            System.out.println();
         }
-
-
-
+        
 
     }
 }
