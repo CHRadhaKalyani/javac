@@ -39,7 +39,7 @@ class Human
 
 public class Main
 {
-    public static void main(String a[])
+    public static void main(String[] a)
     {
         // Creating Human objects
         Human obj = new Human(); // Default constructor
